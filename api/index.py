@@ -36,3 +36,4 @@ def app(environ, start_response):
     ):
         environ['PATH_INFO'] = '/api' + path_info
     return django_app(environ, start_response)
+
